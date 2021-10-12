@@ -9,7 +9,7 @@ Heizung Kontrolle mit eFriends SmartMeter
 Der NodeRed Flow liest alle 10 Sek. das eFriends Meter aus und wenn der Einspeisewert über 100W liegt, dann wird die Stromsteckdose eingeschalten.
 Als Stromsteckdose wurde die HS100 von TpLink verwendet. Zusätzlich wird auch der aktuelle Wert an den Schalter übermittelt.
 
-HS100 gibt es inzwischen fast nicht mehr der Nachfolger ist [KP105](https://www.amazon.de/TP-Link-Kasa-KP105-funktionieren-erforderlich/dp/B08339SP84/tag=wurmcoat-21)
+HS100 gibt es inzwischen fast nicht mehr der Nachfolger ist [KP105](https://www.amazon.de/TP-Link-Kasa-KP105-funktionieren-erforderlich/dp/B08339SP84/tag=wurmcoat-21)<br>
 HS110 hab ich für die Messung verwendet hier gibt es inzwischen [KP115](https://www.amazon.de/TP-Link-KP115-Energieverbrauchskontrolle-funktioniert-Sprachsteuerung/dp/B08X18FXWS/?tag=wurmcoat-21)
 
 ## Einrichtung
