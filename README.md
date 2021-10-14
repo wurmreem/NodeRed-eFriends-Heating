@@ -14,16 +14,25 @@ HS110 hab ich für die Messung verwendet hier gibt es inzwischen [KP115](https:/
 
 ## Einrichtung
 
-Für die Einrichtung müssen 2 Werte eingstellt werden - die URL zum eFriends Meter und die IP Adresse der Steckdose.
+Für die Einrichtung müssen 2 Werte eingstellt werden - die URL zum eFriends Meter mit IP Adresse und die IP Adresse der Steckdose.
+
+Die IP Adresse des eFriends Meter am besten am Router rausfinden und fix einstellen.
+Folgende Mac Adressen werden verwendet:
+B8:27:EB:xx:xx:xx
+DC:A6:32:xx:xx:xx
+E4:5F:01:xx:xx:xx
+
+Sonst geht es auch über den Browser
 Zur URL kommt ihr in ein paar einfachen Schritten:
 1. Browser Chrome/Firefox öffnen
 2. app.efriends.at aufrufen
 3. F12 drücken um in die Entwicklerkonsole zu gelange
 4. In der Entwicklerkonsole den Tab "Network" bzw. "Netzwerkanalyse" öffnen
 5. Hier nochmal F5 drücken
-6. Suche nach balena (Filter links oben)
-7. Unter Domain seht ihr die eindeutige Nummer eures eFriends Meters, das solltet ihr dann eintragen beim Node "eFriends Meterdaten": d123456789.balena-devices.com
-8. am besten nur den vorderen Teil der URL reinkopieren (dort wo xyz steht), den Rest gleich lassen
+6. Suche nach AppConfig (Filter links oben)
+7. auf der rechten Seite unter Preview ist die lokale IP Adresse zu finden
+
+![image](https://user-images.githubusercontent.com/40350124/137376846-94f031d8-da44-4676-a65c-343012b56122.png)
 
 
 
